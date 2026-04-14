@@ -4,63 +4,28 @@
     <title>Keerthana | Portfolio</title>
     <style>
         body {
+            font-family: Arial;
             margin: 0;
-            font-family: 'Segoe UI', sans-serif;
             background: #0f172a;
             color: white;
-        }
-
-        .container {
-            padding: 40px;
             text-align: center;
         }
 
+        .container {
+            padding: 50px;
+        }
+
         h1 {
-            font-size: 42px;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            background: #38bdf8;
-            color: black;
-            border-radius: 20px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .btn:hover {
-            background: #0ea5e9;
-        }
-
-        .section {
-            margin-top: 40px;
-        }
-
-        .projects {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            font-size: 40px;
         }
 
         .card {
             background: #1e293b;
             padding: 20px;
-            margin: 15px;
-            border-radius: 12px;
-            width: 280px;
-            transition: 0.3s;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 600px;
         }
-
-        .card:hover {
-            transform: translateY(-10px);
-        }
-
-        h2 {
-            margin-bottom: 10px;
-        }
-
     </style>
 </head>
 
@@ -68,45 +33,40 @@
 
 <div class="container">
     <h1>Hi, I'm Keerthana 👋</h1>
-    <p>Aspiring Developer | AI & Web Enthusiast</p>
-
-    <a href="#" class="btn">📄 Download Resume</a>
-    <a href="#" class="btn">🔗 GitHub</a>
+    <p>Computer Science Student | AI & Web Development Enthusiast</p>
 
     <!-- Projects -->
-    <div class="section">
+    <div class="card">
         <h2>💼 Projects</h2>
-        <div class="projects">
 
-            <div class="card">
-                <h3>SkillSync ⭐</h3>
-                <p>AI-based system for skill gap analysis and career recommendations using NLP.</p>
-                <a href="#" class="btn">View</a>
-            </div>
+        <p><b>SkillSync – AI-Based Career Guidance System ⭐</b><br>
+        Developed an AI-based system to analyze user skills, identify skill gaps, and recommend career paths using NLP and database integration.</p>
 
-            <div class="card">
-                <h3>Sentiment Analysis</h3>
-                <p>NLP project using Python, NLTK & TensorFlow with Power BI visualization.</p>
-                <a href="#" class="btn">View</a>
-            </div>
+        <p><b>Sentiment Analysis for Brand Monitoring</b><br>
+        Built an NLP-based system using Python, NLTK, and TensorFlow to classify customer feedback and visualize insights using Power BI.</p>
 
-            <div class="card">
-                <h3>Job Recommendation</h3>
-                <p>Recommends jobs based on user skills and preferences.</p>
-                <a href="#" class="btn">View</a>
-            </div>
+        <p><b>Curriculum Generator</b><br>
+        Designed a system to generate personalized learning paths using user skill analysis and structured course recommendations.</p>
 
-        </div>
     </div>
 
     <!-- Skills -->
-    <div class="section">
+    <div class="card">
         <h2>🛠 Skills</h2>
         <p>Python • Java • C • HTML • CSS • JavaScript • SQL • MongoDB • NLP</p>
     </div>
 
+    <!-- Education -->
+    <div class="card">
+        <h2>🎓 Education</h2>
+        <p><b>B.Tech CSE</b> – G. Narayanamma Institute of Technology & Science<br>
+        CGPA: 8.55 (2023–2027)</p>
+
+        <p><b>Intermediate</b> – 96.8%</p>
+    </div>
+
     <!-- Contact -->
-    <div class="section">
+    <div class="card">
         <h2>📫 Contact</h2>
         <p>Email: keerthanamidde2020@gmail.com</p>
         <p>Phone: 9553548381</p>
