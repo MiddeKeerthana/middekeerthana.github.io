@@ -4,24 +4,63 @@
     <title>Keerthana | Portfolio</title>
     <style>
         body {
-            font-family: Arial;
             margin: 0;
+            font-family: 'Segoe UI', sans-serif;
             background: #0f172a;
             color: white;
+        }
+
+        .container {
+            padding: 40px;
             text-align: center;
         }
-        .container {
-            padding: 50px;
-        }
+
         h1 {
-            font-size: 40px;
+            font-size: 42px;
         }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background: #38bdf8;
+            color: black;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #0ea5e9;
+        }
+
+        .section {
+            margin-top: 40px;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
         .card {
             background: #1e293b;
             padding: 20px;
-            margin: 20px;
-            border-radius: 10px;
+            margin: 15px;
+            border-radius: 12px;
+            width: 280px;
+            transition: 0.3s;
         }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
     </style>
 </head>
 
@@ -31,29 +70,48 @@
     <h1>Hi, I'm Keerthana 👋</h1>
     <p>Aspiring Developer | AI & Web Enthusiast</p>
 
-   <div class="card">
-    <h2>💼 Projects</h2>
+    <a href="#" class="btn">📄 Download Resume</a>
+    <a href="#" class="btn">🔗 GitHub</a>
 
-    <p><b>SkillSync – AI-Based Career Guidance System</b><br>
-    Skill gap analysis and career recommendation system using NLP and full-stack development.</p>
+    <!-- Projects -->
+    <div class="section">
+        <h2>💼 Projects</h2>
+        <div class="projects">
 
-    <p><b>Sentiment Analysis for Brand Monitoring</b><br>
-    Built an NLP-based system using Python, NLTK, and TensorFlow to classify customer feedback and visualize insights using Power BI.</p>
+            <div class="card">
+                <h3>SkillSync ⭐</h3>
+                <p>AI-based system for skill gap analysis and career recommendations using NLP.</p>
+                <a href="#" class="btn">View</a>
+            </div>
 
-    <p><b>Job Recommendation System</b><br>
-    Developed a system to recommend jobs based on user skills and preferences.</p>
+            <div class="card">
+                <h3>Sentiment Analysis</h3>
+                <p>NLP project using Python, NLTK & TensorFlow with Power BI visualization.</p>
+                <a href="#" class="btn">View</a>
+            </div>
 
-</div>
+            <div class="card">
+                <h3>Job Recommendation</h3>
+                <p>Recommends jobs based on user skills and preferences.</p>
+                <a href="#" class="btn">View</a>
+            </div>
 
-    <div class="card">
-        <h2>🛠 Skills</h2>
-        <p>Python, JavaScript, HTML, CSS, MongoDB, NLP</p>
+        </div>
     </div>
 
-    <div class="card">
+    <!-- Skills -->
+    <div class="section">
+        <h2>🛠 Skills</h2>
+        <p>Python • Java • C • HTML • CSS • JavaScript • SQL • MongoDB • NLP</p>
+    </div>
+
+    <!-- Contact -->
+    <div class="section">
         <h2>📫 Contact</h2>
         <p>Email: keerthanamidde2020@gmail.com</p>
+        <p>Phone: 9553548381</p>
     </div>
+
 </div>
 
 </body>
