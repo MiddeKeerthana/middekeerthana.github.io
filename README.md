@@ -38,7 +38,7 @@ A platform that analyzes resumes, extracts skills, identifies skill gaps, and su
 ## 📊 Coding Profile
 
 - [LeetCode](https://leetcode.com/u/Middekeerthana/)
-- [LeetCode](https://leetcode.com/u/Middekeerthana/)
+
 
 ## 📫 Contact
 
